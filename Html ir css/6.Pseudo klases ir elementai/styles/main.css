@@ -1,0 +1,86 @@
+p.rytoTekstas#hallo{
+    font-weight: bold;
+  }
+  .rytoTekstas + p{
+    color: red;
+  }
+  h1.heading ~ *{
+    background-color: aqua;
+  }
+  
+  /* [href]{
+    color: rgb(255, 174, 0);
+  } */
+  [class$=head]{
+    color: blue;
+  }
+  
+  
+  a:link{
+    background-color: aqua;
+  }
+  a:visited{
+    background-color: rgb(234, 255, 0);
+  }
+  a:hover{
+    background-color: green;
+  }
+  a:active{
+    background-color: black;
+  }
+  
+  p:empty{
+    height: 10px;
+    background-color: blueviolet;
+  }
+  
+  li{
+    color: orange;
+  }
+  li::marker{
+    color: black;
+  }
+  
+  .selektoriuPvz > :not(div){
+    background-color: blanchedalmond;
+  }
+  
+  .selektoriuPvz :nth-child(5n+3){
+    color: green;
+  }
+  
+  #table1 table{
+    border-collapse: collapse;
+  }
+  #table1 th, #table1 td{
+    border: 1px solid #000;
+  }
+  
+  #table1 tr :first-child, #table1 tr :last-child{
+    color: #f00;
+  }
+  #table1 thead tr:first-child{
+    background-color: #808080;
+  }
+  #table1 tbody tr:nth-child(2n){
+    background-color: #7fffd4;
+  }
+  #table1 tbody tr:nth-child(2n+1){
+    background-color: #80fe72;
+  }
+  
+  
+  
+  li::marker{
+    color: red;
+  }
+  li::before{
+    content: ":)";
+    color: black;
+    font-size: 30px;
+  }
+  li::after{
+    content: "(:";
+    color: black;
+    background-color: orange;
+  }

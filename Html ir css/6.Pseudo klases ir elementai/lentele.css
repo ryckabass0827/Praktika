@@ -1,0 +1,35 @@
+html {
+    margin: 0;
+    background-color: rgb(45, 44, 96);
+}
+
+.logo {
+    color: rgb(6, 6, 245);
+    margin-top: 0;
+    margin-left: 42%;
+    display: flex;
+    height: 20px;
+    font-size: 30px;
+    
+    
+}
+.paveiksliukas{
+    margin-left: 40%;;
+    width: 400px;
+    margin-top: 30px;
+}
+
+.pastraipa {
+color: red;
+margin-left: 46%;
+height: 40px;
+}
+
+.table {
+    margin-left: 41%;
+    border-style: hidden;
+    display: inline-block;
+    font-size: large;
+    background-color: rgba(71, 64, 77, 0.66);
+}
+

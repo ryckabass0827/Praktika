@@ -1,0 +1,71 @@
+body{
+   width: fit-content;
+   
+
+    display: grid;
+    grid-template-columns: 4fr;
+    grid-template-rows: 5fr;
+}
+
+#numberone{
+    width: 500px;
+    height: 300px;
+    display: grid;
+    margin: 0 auto;
+    
+
+}
+#numbertwo{
+    width: 300px;
+    height: 300px;
+    display: grid;
+    margin: 0 auto;
+}
+#numberthree{
+    width: 300px;
+    height: 300px;
+    display: grid;
+    margin: 0 auto;
+    
+}
+#numberfour{
+    width: 300px;
+    height: 300px;
+    display: grid;
+    margin: 0 auto;
+}
+.paragraf1{
+    width: 200px;
+    height: 300px;
+    display: grid;
+}
+.paragraf2{
+    width: 200px;
+    height: 300px;
+    display: grid;
+}
+.paragraf3{
+    width: 200px;
+    height: 300px;
+    display: grid;
+}
+.paragraf4{
+    width: 200px;
+    height: 300px;
+    display: grid;
+}
+.firstFloor{
+    display: grid;
+    
+    
+    
+}
+    
+   
+    
+
+.item1 {
+    display: grid;
+   
+  }
+ 

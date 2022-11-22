@@ -1,0 +1,101 @@
+.kvadratasDidelis{
+    height: 300px;
+    width: 300px;
+    border: 2px dashed black;
+    background-color: aquamarine;
+    margin-left: 200px;
+    transition: all;
+    transition-duration: 5s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+
+    /* kad visi 4 veiktu kartu -
+    transition: width 5s linear 0s, (butinas kablelis)
+    background-color 5s linear 5s */
+}
+.scale{
+    transform: scale(2, 0.5);
+}
+.rotate{
+    transform: rotateZ(90deg);
+}
+
+.translate{
+    transform: translate3d(100px, 200px, 50px);
+}
+
+.skew{
+    transform: skew(50deg, 20deg);
+}
+
+.kvadratasDidelis:hover{
+    transform: scale(0.5) translate(100px,50px) rotate(150deg);
+transform-origin: top left;
+background-color: blue; }
+
+.animacija{
+    /*
+    animation-duration: 10;
+    animation-timing-function: linear;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: pirmaAnimacija; */
+    animation: 0.01s linear infinite alternate pirmaAnimacija;
+}
+@keyframes pirmaAnimacija{
+    0%{ width: 500px; 
+background-color: rgb(237, 7, 7);
+    } 50% { 
+             width: 700px; 
+        background-color: blue;
+    } 100% {
+        width: 2000px; height: 1000px;
+   background-color: rgb(13, 245, 140);
+    }
+}
+
+/* Flex */
+.kvadratas{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.flexcontainer{
+    height: 500px;
+    border: 5px solid black;
+    background-color: bisque;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    /*align-items: center;*/
+    align-content: center;
+    gap: 10px 30px;
+}
+
+.order1{
+    order: 1;
+}
+
+.order2{
+    order: 2;
+}
+
+.flexGrow1{
+    flex-grow: 1;
+}
+
+.flexGrow2{
+    flex-grow: 2;
+}
+
+.alignSelfEnd{
+    align-self: inherit;
+}

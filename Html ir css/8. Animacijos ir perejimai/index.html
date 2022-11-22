@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation and flex</title>
+    <link rel="stylesheet" href="/8. Animacijos ir perejimai/main.css" />
+  </head>
+  <body>
+    <!---
+        transform
+        transition
+        animation
+
+        Flex
+    -->
+    <main>
+      <section id="transform">
+        <h1>Transform</h1>
+        <ul>
+          <li>scale - keicia elemento dydi (default 1)</li>
+          <li>,scaleX,scaleY,scaleZ,scale(x,y), scale3d(x,y,z)</li>
+          <li>rotate - pasuka elementa (deg - laipsniais)</li>
+          <li>
+            rotateX(x) rotateY(y) rotateZ(z), rotate(z), rotate3d(x,y,z,a)
+          </li>
+          <li>translate - elemento pastumimas kazkur</li>
+          <li>
+            translateX(x), translateY(y), translateZ(z), translate()
+            translate3d(x,y,z)
+          </li>
+          <li>
+            skew - skew(x,y), skewX(x), skewY(y) (tampo kaip gumini) tempa
+            elementa uz kampu.
+          </li>
+          <li>matrix, matrix3d</li>
+          <li>perspective</li>
+        </ul>
+        <div class="kvadratasDidelis transformation">labas</div>
+      </section>
+      <section id="transition">
+        <h1>tranzicija</h1>
+        <ul>
+          <li>transition-property - nurodai kokie stiliai keiciasi</li>
+          <li>transition-duration - per kiek laikop ivyksta pakitimai</li>
+          <li>
+            transition-timing-function - kaip tranzicijai paskirstys laika
+            <ul>
+              <li>ease</li>
+              <li>ease-in</li>
+              <li>ease-out</li>
+              <li>ease-in-out</li>
+              <li>linear</li>
+              <li>cubiz-bezier</li>
+            </ul>
+          </li>
+          <li>transition-delay - po kiek laiko nutinka pakitimai</li>
+          <li>transition - junginys visu 4 nustatymu</li>
+        </ul>
+      </section>
+      <section id="animation">
+        <h1>
+          animacija
+          <ul>
+            <li>animation-duration - tai animacijai skirtas laiko tarpas</li>
+            <li>
+              animation-easing-function - kaip animacijai paskirstys turima
+              laika
+            </li>
+            <li>animation-delay - po kiek laiko prasides animacija</li>
+            <li>animation-iteration-count - kiek sykiu vyks animacija</li>
+            <li>animation-direction - aniumacijos kryptis</li>
+            <li>
+              animation-fill-mode - animacijos pradzios/pabaigos nustatymai
+            </li>
+            <li>animation-play-state - animacijos busena</li>
+            <li>animation-name - animacijos pavadinimas</li>
+            <li>animation - junginys visu 8 nustatymu</li>
+          </ul>
+          <p></p>
+          <div class="kvadratasDidelis animacija">labas</div>
+        </h1>
+      </section>
+      <section id="Flex">
+        <h1>Display: flex</h1>
+        <ul>
+          <li>flex-direction</li>
+          <li>flex-wrap</li>
+          <li>flex-flow - abieju virsutiniu junginys</li>
+          <li>justify-content - main axis (valdo pagrindine asi)</li>
+          <li>align-items - cross axis</li>
+          <li>align-content - cross axis</li>
+          <li>gap, row-gap, column-gap</li>
+          <li>order</li>
+          <li>flex-grow</li>
+          <li>align-self (su align items naudoti)</li>
+        </ul>
+        <div class="flexcontainer">
+          <div class="kvadratas">1</div>
+          <div class="kvadratas">2</div>
+          <div class="kvadratas order2">3</div>
+          <div class="kvadratas">4</div>
+          <div class="kvadratas order1">5</div>
+          <div class="kvadratas">6</div>
+          <div class="kvadratas">7</div>
+          <div class="kvadratas">8</div>
+          <div class="kvadratas">9</div>
+          <div class="kvadratas">10</div>
+          <div class="kvadratas">11</div>
+          <div class="kvadratas">12</div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

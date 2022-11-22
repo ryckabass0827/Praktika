@@ -1,0 +1,31 @@
+#container {
+
+   font-weight: bold;
+   position: fixed;
+   border: 3px;
+   border-style: solid;
+   background-color: rgba(70, 140, 70, 0.882);
+   text-align: center;
+   align-items: center;
+   
+
+}
+
+.ID {
+   display: block;
+}
+
+html{
+    background-color: rgba(7, 8, 7, 0.882);
+}
+
+.email{
+    display: block;
+}
+h3 {
+    color: aliceblue;
+}
+h1{
+    color: aliceblue;
+    
+}

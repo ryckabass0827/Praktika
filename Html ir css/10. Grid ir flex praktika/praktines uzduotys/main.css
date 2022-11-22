@@ -1,0 +1,207 @@
+#task4{
+    display: grid;
+    margin: 50px auto 0;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    width: 1200px;
+    height: 700px;
+   
+    
+    
+    }
+#task4 > div{
+    display: grid;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+  
+#task4 :nth-child(1){
+    background-color: rgb(7, 7, 71);
+    grid-area: 1 / 1 / 2 / 2;
+    height: 50px;
+   
+   
+    
+}
+#task4 :nth-child(2){
+    background-color: red;
+    grid-area: 1 / 2 / 1 / 5;
+    height: 50px;
+}
+
+#task4 :nth-child(3){
+    background-color: blue;
+    grid-area: 2 / 1 / 4 / 5;
+    height: 350px;
+ 
+    
+
+}
+
+#task4 :nth-child(4){
+    background-color: rgb(15, 15, 51);
+    grid-area: 4 / 1 / 7 / 3;
+}
+
+
+
+#task4 :nth-child(5){
+    background-color: rgb(17, 247, 5);
+    grid-area: 4 / 4 / 4 / 4 ;
+    height: 150px;
+}
+
+#task4 :nth-child(6){
+    background-color: rgb(240, 14, 240);
+    grid-area: 6 / 4 / 6 / 4 ;
+    height: 150px;
+}
+
+
+
+#task4 :nth-child(7){
+    background-color: #ffa500;
+    grid-area: 7 / 1 / 7 / 5 ;
+    height: 100px;
+    color: black;
+
+}
+
+
+
+
+.sides{
+    margin: 50px auto 0;
+    margin-top: 200px;
+}
+#task5{
+    display: grid;
+    width: 1000px;
+    height: 800px;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(40, 1fr);
+    margin: 50px auto 0;
+    grid-auto-columns: 60px;
+    grid-auto-rows: 20px;
+    }
+
+.Menu{
+    grid-area: 1 / 1 / 6 / 20;
+    background-color: blue;
+    display: grid;
+}
+.Menu :nth-child(1){
+    grid-area: 1 / 1 / 6 / 6;
+    border: solid black;
+}
+.Menu :nth-child(2){
+    grid-area: 1 / 14 / 6 / 19;
+    border: solid black;}
+
+
+.Hero{
+    grid-area: 6 / 1 / 16 / 20;
+    background-color: rgb(242, 242, 9);
+    height: 200px;
+    width: 1000px;
+    grid-auto-columns: 60px;
+    grid-auto-rows: 20px;
+    display: grid;
+ 
+   
+
+    
+    
+}
+.Hero :nth-child(1){
+    border: solid black;
+    grid-area: 2 / 3 / 5 / 8;
+
+}
+.Hero :nth-child(2){
+    border: solid black;
+    grid-area: 6 / 2 / 9 / 9;
+
+}
+.Hero :nth-child(3){
+    grid-area: 2 / 10 / 10 / 17;
+    border: solid black;
+}
+
+.About{
+    grid-area: 16 / 1 / 27 / 20;
+    background-color: lightseagreen;
+    display: grid;
+    height: 200px;
+    grid-auto-columns: 60px;
+    grid-auto-rows: 15px;
+}
+
+.About :nth-child(1){
+    border: solid black;
+    grid-area: 2 / 5 / 4 / 15;
+}
+.About :nth-child(2){
+    border: solid black;
+    grid-area: 5 / 2 / 8 / 9;
+}
+.About :nth-child(3){
+    border: solid black;
+    grid-area: 9 / 2 / 14 / 9;
+}
+.About :nth-child(4){
+    border: solid black;
+    grid-area: 5 / 11 / 14 / 16
+}
+
+
+
+
+
+
+.Contact{
+grid-area: 27 / 1 / 36 / 20;
+background-color: darkslategray;
+display: grid;
+height: 200px;
+grid-auto-columns: 60px;
+grid-auto-rows: 20px;
+
+}
+
+.Contact :nth-child(1){
+    border: solid black;
+    grid-area: 2 / 5 / 4 / 15;
+}
+.Contact :nth-child(2){
+    border: solid black;
+    grid-area: 5 / 3 / 10 / 7;
+}
+.Contact :nth-child(3){
+    border: solid black;
+    grid-area: 5 / 8 / 10 / 12;
+}
+.Contact :nth-child(4){
+    border: solid black;
+    grid-area: 5 / 13 / 10 / 17;
+}
+
+
+
+
+
+.Footer{
+    grid-area: 36 / 1 / 40 / 20;
+    background-color: lightslategray;
+    display: grid;
+    height: 90px;
+    grid-auto-columns: 60px;
+    grid-auto-rows: 20px;
+}
+.Footer :nth-child(1){
+ border: solid black;
+ grid-area: 2 / 4 / 4 / 15;
+}

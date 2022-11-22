@@ -1,0 +1,100 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css);
+
+html {
+    background-color: rgb(24, 17, 17);
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+form {
+text-align: center;
+}
+
+#read-only {
+    color: rgb(14, 9, 9);
+    background-color: rgb(165, 163, 163);
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+    background-color: rgb(33, 72, 62);
+   
+    margin: auto;
+    width: 30%;
+    padding: 20px;
+    color: aliceblue;
+    }
+
+.required {background-color: plum;}
+
+.container h1 {
+ margin: auto;
+ padding: 5%;
+ color: aliceblue;
+ object-fit: fill;
+}
+
+
+.container > h1  p{
+    color: aliceblue;
+}
+.submit-button {
+    color: rgb(236, 242, 236);
+    background-color: green;
+    transition: 2s;
+}
+.submit-button:hover {
+    background-color: rgb(1, 9, 1);
+}
+
+#email {border: 3px;
+border-color: rgb(219, 65, 219);
+border-style: groove;
+
+}
+
+#age {border: 3px;
+    border-color: rgb(219, 65, 219);
+    border-style: groove;
+ }
+#age:in-range {
+    background-color: rgb(47, 173, 102);
+}
+#age:out-of-range {
+    background-color: rgb(219, 65, 219);
+}
+    #password {border: 4px;
+        border-color: rgb(219, 65, 219);
+        border-style: groove;
+        
+        }
+#about {
+    border: 4px;
+    border-style: groove;
+    border-color: rgb(10, 227, 64);
+    width: 300px;
+    height: 100px;
+}
+
+#email:valid {
+    border-color: rgb(219, 65, 219);
+    border-style: groove;
+}
+#email:invalid {
+    border-color: red;
+    border-style: groove;
+}
+
+#password:valid {
+    border-color: greenyellow;
+    border-style: groove;
+}
+#password:invalid {
+    border-color: red;
+    border-style: groove;
+}
+
+
