@@ -5,16 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=>, initial-scale=1.0" />
     <title>Kitos CSS temos</title>
+    <link rel="stylesheet" href="/21 paskaita kitos temos/main.css" />
   </head>
   <body>
     <!---
         Git ir Github
         puslapio prieinamumas (accesibility)
-        Preprocesoriai(css,cass)
+        Preprocesoriai(css,cass) + variables + dydziai
         css Framework
         ---->
     <section id="gitirGithub">
-      <li></li>
+      <ul>
+        <li>publish to github source control dalyje</li>
+      </ul>
+      <p><strong>Git</strong> - kodo versijavimo programa</p>
     </section>
     <section id="git">
       <ul>
@@ -23,6 +27,100 @@
         <li>git config --global core.editor code</li>
         <li>git config --global core.autocrlf true</li>
       </ul>
+    </section>
+    <section id="acceasibility">
+      <h1>accesability</h1>
+      <ul>
+        <li>Suvokiamumas</li>
+        <li>Veikiamumas</li>
+        <li>Suprantamumas</li>
+        <li>Tvirtumas</li>
+      </ul>
+      <p>
+        Puslapiu pritaikymas zmonems su negalia. Pvz: klausa prasto regejimo,
+        akliesiems, daltonikams, prasto apsvietimo salygomis it t.t.
+      </p>
+      <p>
+        Visi standartai yra aprasyti
+        <a href="https://www.w3.org/WAI/" target="_blank"></a>
+      </p>
+      <p>automatiniai skaitytuvai</p>
+      <p>
+        Alternatyvus tekstai paveiksliukams ir video.
+        <a href="/https://axesslab.com/alt-texts/" target="_blank"></a>
+      </p>
+      <p>
+        ARIA atributai
+        <a
+          href="https://www.w3.org/TR/wai-aria/#document_structure_roles"
+          target="_blank"
+          >info</a
+        >
+      </p>
+      <p>
+        Tinklapio prisitaikymas prie vartotojo irenginio
+        <a href="" target="_blank">info</a>
+      </p>
+      <p>
+        meta tagai nusako svetaines informacija
+        <a href="" target="_blank">info</a>
+      </p>
+    </section>
+    <section id="preprocessors">
+      <h1>preprocessors</h1>
+      <div>
+        <h3>SASS / SCSS</h3>
+        <p>very very good</p>
+        <p>
+          suteikia galimybe rasyti css naujoviskesniu budu, kur galima lengvai
+          kurti ir naudoti kintamuosius; nesti'nti rasyti funkcijas: salygas
+          ciklus mix'inus. <br />
+          Naudojant kazkuri preprocesoriu reikia parasyta koda konvertuoti i
+          paprasta css kuri supranta svetaine.
+        </p>
+      </div>
+    </section>
+    <section id="CSS_framework">
+      <h1>CSS frameworks</h1>
+      <ul>
+        <li>Tailwind</li>
+        <li>Bootstrap</li>
+        <li>Bulma</li>
+        <li>UI Kit</li>
+        <li>Materialize</li>
+        <li>Milligram</li>
+        <li>Foundation</li>
+        <li>...</li>
+      </ul>
+
+      <div class="twoCols">
+        <h3>PROS</h3>
+        <ul>
+          <li>Nereikia / labai mazai rasyti CSS</li>
+          <li>pagreitina darba</li>
+          <li>lengvi naudoti</li>
+          <li>juose yra sustilizuoti/ usprogramuoti responsiveness</li>
+        </ul>
+        <h3>
+          Cons
+          <ul>
+            <li>neunikalus dizainas</li>
+            <li>daug perteklinio kodo</li>
+            <li>reikalauja laiko ismokti naudotis</li>
+          </ul>
+        </h3>
+      </div>
+      <p>
+        <strong>CSS Framework</strong> kazkieko kito parasytas css kodas kuri tu
+        gali naudotis. <br />
+        Norint naudoti kazkieno framework reikia ji prijungti prie savo kodo
+        (cdn) <br />
+        Dauguma frameworku veikia naudojant ju aprasytas klases kazkokiems html
+        elementams. <br />
+        Yra <a>Classless</a> CSS framework'u. Juos naudojant nereikia suteikti
+        klasiu jokiems html elementams. viskas aprasyta naudojant tagu
+        selektorius.
+      </p>
     </section>
   </body>
 </html>

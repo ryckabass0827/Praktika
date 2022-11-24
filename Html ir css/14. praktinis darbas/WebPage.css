@@ -1,0 +1,463 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+
+/* Nepavyko tvarkingai padaryti FEATURED TOURS borderiu*/
+
+
+body{
+    width: 600px;
+    background-color: white;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.header{
+   display: flex;
+    position: sticky;
+    height: 100px;
+    justify-content: space-around;
+    background-color: white;
+}
+.socialicons{
+    padding: 30px;
+  font-size: 20px;
+  width: 20px;
+  text-align: left;
+  text-decoration: none;
+  border-radius: 50%;
+  display: flex;
+  gap: 20px;
+  
+}
+.socialicons :hover{
+    opacity: 0.4;
+}
+.logo{
+    font-size: larger;
+    margin-top: 20px;
+}
+span{
+    color: #645cff;
+}
+
+.mainItems{
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    color: aliceblue;
+    text-align: center;
+    height: 800px;
+    background-color: #645cff;
+}
+
+.mainItems > h3{
+    align-self: center;  
+    font-size: xx-large;
+    
+    
+}
+.mainItems > button{
+    width: 120px;
+    margin-top: 50px;
+    text-align: inherit;
+    align-self: center;
+    border: 1px rgb(22, 22, 218);
+    border-style: none;
+    background-color: #645cff;
+    box-shadow: 1px 1px 1px 1px rgb(57, 12, 205);
+    color: aliceblue;
+    
+}
+.mainItems > p{
+    width: 350px;
+    align-self: center;
+}
+
+.aboutUS{
+    
+    height: 800px;
+    background-color: white;
+    
+}
+.aboutUS > h1{
+    text-align: center;
+}
+.aboutUS > h3{
+   
+  margin-left: 20px;
+   font-size: xx-large;
+}
+.aboutUS > img{
+    width: 500px;
+    height:400px;
+    image-rendering: crisp-edges;
+    margin-left: 50px;
+}
+
+
+.aboutUS > button{
+   background-color: rgb(251, 249, 249); 
+   border: none;
+   margin-left: 20px;
+   font-size: large;
+   text-align: start;
+   color: #645cff;
+   
+}
+.maindown > h1{
+    text-align: center;
+    font-size: xx-large;
+}
+#inGrid{
+    height: 800px;
+    background-color: white;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+#inGrid :nth-child(1){
+    grid-area: 1 / 2 / 1 / 2;
+}
+
+#inGrid :nth-child(2){
+    grid-area: 1 / 6 / 1 / 6;
+}
+
+#inGrid :nth-child(3){
+    grid-area: 2 / 2 / 2 / 2;
+}
+
+
+
+#inGrid > div > p{
+    display: block;
+    font-size: small;
+    width: 100px;
+
+}
+
+#inGrid > div > i{
+    background-color: #645cff;
+}
+
+#FeaturedTours > h1{
+   text-align: center;
+}
+#Featuredtours{
+    height: 600px;
+}
+.paragraf1{
+    width: 500px;
+    text-align: center;
+    margin-left: 40px;
+}
+.paragraf1 > button{
+    color: #645cff;
+    border: none;
+    background-color: white;
+    font-size: small;
+    font-weight: 700;
+}
+
+
+ ul{
+    list-style-type: none;
+    font-weight: 800;
+ }
+
+.pastraipa{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pastraipa > i{
+    color: #645cff;}
+
+.container{
+    border: 1px solid #f1f1ef;
+
+    width: 600px; 
+    height: 500px; 
+    position: relative; 
+}
+
+.top-left {
+    position:absolute;
+    top: 18px;
+    left: 36px;
+    background-color: #645cff;
+  }
+.container > h1{
+    text-align: center;
+}
+.container > img{
+ margin-left: 5%;
+ height: 300px;
+ position: relative;
+}
+#turai{
+    background-color: rgb(251, 249, 249); 
+    border: none;
+    color: #645cff;
+    font-size: medium;
+    font-weight: 700;
+    margin-left: 47%;
+    }
+
+    #Gallery > h1{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .Photos{
+        width: 600px;
+        background-color: #645cff;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap
+    }
+
+    .Updatesinfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #645cff;
+    }
+    .Updatesinfo > h1{
+        color: #f6f5fa;
+
+    }
+    .Bottom{
+        background-color: #222222;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        height: 400px;
+}
+#MenuBottom{
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+    
+}
+#MenuBottom > a{
+    
+    color: white;
+    text-decoration: none;
+    
+    
+}
+
+#soc > a{
+  margin-top: 100px; 
+  text-decoration: none;
+  color: #645cff;
+
+}
+.socialicons > a{
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+
+#copyright{
+    color: white;
+   margin-top: 100px;
+}
+
+
+#MenuTop{
+    display: none;
+}
+
+.mainItems > img{
+display: none;
+}
+
+@media (min-width: 1020px){
+    body{
+        width: 1200px;
+    }
+   
+    .logo{
+        text-shadow: 1px 1px 2px #645cff, 0 0 1em #645cff, 0 0 0.2em #645cff  }
+    #MenuTop{
+        display: flex;
+        margin-top: 50px;
+        gap: 20px; 
+        font-weight: 600;  
+    }
+    #MenuTop > a{
+        text-decoration: none;
+        color: #222222;
+        font-size: large;
+    }
+
+    #MenuTop :hover{
+        color: #645cff;
+        text-shadow: 1px 1px 2px #645cff, 0 0 1em #645cff, 0 0 0.2em #645cff;
+    }
+
+ 
+header{
+    position: relative;
+}    
+.mainItems{
+   position: relative;
+    width: 1200px;
+    background-image: url("/Html ir css/14. praktinis darbas/images/backround.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  justify-content: center;
+}
+   
+.aboutUS{
+    height: 400px;
+    position: relative
+    }
+
+.aboutUS > img{
+    width: 400px;
+    height: 300px;
+   position: absolute;
+   margin-top: -285px;
+   margin-left: 185px;
+}
+.maindown{
+    position: relative;
+}
+
+.aboutUS > h1{
+    text-align: center;
+    margin-top: 50px;
+   }
+
+.invisible{
+    width: 400px;
+    height: 300px;
+    border: #645cff outset 5px;
+    margin-left: 160px;
+    position: relative;
+}
+
+.paragraf1{
+    width: 500px;
+    height: 600px;
+    display: block;
+    margin-left: 650px;
+    text-align: left;
+    margin-top: -250px;
+}
+
+
+#inGrid{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    
+}
+#inGrid > div{
+    display: flex;
+    gap: 10px;
+}
+
+i{
+    width: 70px;
+    height: 65px;
+    margin-left: 50px;
+}
+
+.servicesColumn{
+    flex-direction: column;
+    margin-top: -20px;
+}
+#FeaturedTours{
+   height: 1000px;
+   position: relative;
+   }
+footer{
+    position: relative;
+}
+
+#Gallery{
+    position: relative;
+}
+#FeaturedTours :nth-child(1){
+    text-align: center;
+}
+
+
+.container{
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+    
+    margin-left: 40px;
+    border: 1px solid grey;
+
+   }
+
+.container > img{
+    width: 100%;
+    height: 100%;
+
+}
+.lastContainer{
+    margin-top: 50px;
+    margin-left: -10px;
+   
+    
+    
+    
+}
+.pastraipa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+
+.Photos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    
+}
+.Photos > img{
+   
+    width: 300px;
+}
+
+.Bottom{
+    height: 400px;
+}
+
+#MenuBottom > a:hover{
+    text-shadow: 1px 1px 2px #645cff, 0 0 1em #645cff, 0 0 0.2em #645cff
+}
+#soc > a:hover{
+    color: #f1f1ef;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

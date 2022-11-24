@@ -1,0 +1,10 @@
+#preprocessors h1 {
+  font-size: 2rem;
+}
+#preprocessors div h3 {
+  font-size: 2rem;
+  color: rgb(235, 10, 10);
+}
+#preprocessors div p {
+  color: r rgb(235, 10, 10);
+}/*# sourceMappingURL=main.css.map */

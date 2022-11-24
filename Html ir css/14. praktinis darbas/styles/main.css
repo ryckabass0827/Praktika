@@ -1,0 +1,239 @@
+
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
+@font-face {
+    font-family: 'none';
+    src: url();
+}
+
+
+body{
+    width: 600px;
+    background-color: white;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.header{
+   display: flex;
+    position: sticky;
+    height: 100px;
+    justify-content: space-around;
+    background-color: white;
+}
+.socialicons{
+    padding: 30px;
+  font-size: 20px;
+  width: 20px;
+  text-align: left;
+  text-decoration: none;
+  border-radius: 50%;
+  display: flex;
+  gap: 20px;
+  
+}
+.socialicons :hover{
+    opacity: 0.4;
+}
+.logo{
+    font-size: larger;
+}
+span{
+    color: #645cff;
+}
+
+.mainItems{
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    color: aliceblue;
+    text-align: center;
+    height: 800px;
+    background-color: #645cff;
+}
+
+.mainItems > h3{
+    align-self: center;  
+    font-size: xx-large;
+    
+    
+}
+.mainItems > button{
+    width: 120px;
+    margin-top: 50px;
+    text-align: inherit;
+    align-self: center;
+    border: 1px rgb(22, 22, 218);
+    border-style: none;
+    background-color: #645cff;
+    box-shadow: 1px 1px 1px 1px rgb(57, 12, 205);
+    color: aliceblue;
+    
+}
+.mainItems > p{
+    width: 350px;
+    align-self: center;
+}
+
+.aboutUS{
+    
+    height: 800px;
+    background-color: white;
+    
+}
+.aboutUS > h3{
+   
+  margin-left: 20px;
+   font-size: xx-large;
+}
+.aboutUS > img{
+    width: 500px;
+    height:400px;
+    image-rendering: crisp-edges;
+    margin-left: 50px;
+}
+
+
+.aboutUS > button{
+   background-color: rgb(251, 249, 249); 
+   border: none;
+   margin-left: 20px;
+   font-size: large;
+   text-align: start;
+   color: #645cff;
+   
+}
+.maindown > h1{
+    text-align: center;
+    font-size: xx-large;
+}
+#inGrid{
+    height: 800px;
+    background-color: white;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+#inGrid :nth-child(1){
+    grid-area: 1 / 2 / 1 / 2;
+}
+
+#inGrid :nth-child(2){
+    grid-area: 1 / 6 / 1 / 6;
+}
+
+#inGrid :nth-child(3){
+    grid-area: 2 / 2 / 2 / 2;
+}
+
+
+
+#inGrid > div > p{
+    display: block;
+    font-size: small;
+    width: 100px;
+
+}
+
+#inGrid > div > i{
+    background-color: #645cff;
+}
+
+.FeaturedTours{
+    height: 1000px;
+
+}
+
+.container {
+    position: relative;
+    text-align: center;
+   
+  }
+
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 36px;
+    background-color: #645cff;
+  }
+
+ ul{
+    list-style-type: none;
+    font-weight: 800;
+ }
+
+.pastraipa{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container{
+    border: 1px solid #f1f1ef;
+    width: 600px;
+    
+}
+#turai{
+    background-color: rgb(251, 249, 249); 
+    border: none;
+    color: #645cff;
+    font-size: medium;
+    font-weight: 700;
+    color: #645cff;
+    margin-left: 42%;
+    }
+
+    #Gallery > h1{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .Photos{
+        width: 600px;
+        background-color: #645cff;
+    }
+
+    .Updatesinfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #645cff;
+    }
+    .Updatesinfo > h1{
+        color: #f6f5fa;
+
+    }
+    .Bottom{
+        background-color: #222222;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        height: 400px;
+}
+#MenuBottom{
+    margin-top: 50px;
+    color: #fcfcfc;
+    
+}
+#MenuBottom > a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+#soc{
+  margin-top: 100px; 
+  text-decoration: none;
+
+   color: white;
+}
+
+#copyright{
+    color: #f1f1ef;
+    
+   margin-top: 100px;
+}
