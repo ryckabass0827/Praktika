@@ -1,0 +1,457 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css
+);
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+body{
+    margin: 0;
+    width: 360px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu{
+    display: none;
+}
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    
+}
+.logo > img{
+width: 200px;
+height: 50px;
+margin-top: 20px;
+margin-left: 20px;
+}
+.bars > i{
+  font-size: 30px;
+  color: gray; 
+  margin-top: 10px;
+}
+
+.Hero{
+    margin-left: 20px;
+    height: 380px;
+    position: relative;
+}
+#Purpledude > img{
+    width: 250px;
+    margin-left: 210px;
+    margin-top: -30px;
+}
+.paragraf1{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    margin-top: -250px;
+}
+.paragraf1 > h3{
+    color: rgb(223 93 184);
+    font-size: medium;
+}
+.paragraf1 > h1{
+    font-size: xx-large;
+    font-weight: 900;
+}
+.nav{
+    position: relative;
+}
+#signup{
+    border: 3px solid transparent;
+    background-color: white;
+    border-radius: 45px;
+    width: 180px;
+    height: 60px;
+    font-weight: 800;
+    border-color: rgb(168, 22, 22) rgb(154, 23, 78) rgb(194, 124, 13);
+}
+#paragraf{
+    background-image: radial-gradient(
+        circle at top left,
+        rgb(239, 69, 17),
+        rgb(227, 152, 22),
+        rgb(42, 124, 67)
+      );
+    
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    text-align: center;
+}
+#paragraf > h1{
+    margin-bottom: 60px;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#paragraf > p{
+    margin-left: 10px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+
+#links{
+   width: 360px;
+   text-align: center;
+   font-size: large;
+}
+.fa {
+    padding: 20px;
+    width: 30px;
+    align-items: center;
+    text-decoration: none;
+    margin: 5px 5px;
+   
+    
+  }
+  .fa-youtube {
+    width: 70px;
+    color: grey;
+    
+  }
+  
+  .fa-instagram {
+    width: 70px;
+    color: grey;
+  }
+  
+  .fa-pinterest {
+    width: 70px;
+    color: grey;
+  }
+  
+  .fa-snapchat-ghost {
+    width: 70px;
+    color: grey;
+   
+  }
+
+  ul{
+    list-style: none;
+  }
+.NFTcards{
+    position: relative;
+}
+  .NFTs{
+    display: flex;
+    gap: 20px;
+    height: 500px;
+    
+}
+
+.CardInfo > h1{
+text-align: left;
+margin-left: 20px;
+font-weight: 500;
+}
+.CardInfo > p{
+    text-align: left;
+    margin-left: 20px;
+    font-weight: 500;
+}
+.nft1{
+    position: relative;
+    margin-top: 40px;
+    width: 270px;
+    height: 370px;
+    margin-left: 20px;
+    border: 1px solid rgb(251, 250, 249);
+    border-radius: 7%;
+    background-image: url("/Atsiskaitymai/images/nft1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    text-align: center;
+    background-color: rgb(232, 228, 228);
+    
+}
+
+.nft2{
+    position: relative;
+    margin-top: 40px;
+    width: 270px;
+    height: 370px;
+    margin-left: 20px;
+    border: 1px solid white;
+    border-radius: 7%;
+    background-image: url("/Atsiskaitymai/images/nft2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    text-align: center;
+    background-color: rgb(232, 228, 228);
+    
+}
+
+.nft3{
+    position: relative;
+    margin-top: 40px;
+    width: 270px;
+    height: 370px;
+    margin-left: 20px;
+    border: 1px solid white;
+    border-radius: 7%;
+    background-image: url("/Atsiskaitymai/images/nft3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    text-align: center;
+    background-color: rgb(232, 228, 228);
+    
+}
+
+.nft4{
+    position: relative;
+    margin-top: 40px;
+    width: 270px;
+    height: 370px;
+    margin-left: 20px;
+    border: 1px solid white;
+    border-radius: 7%;
+    background-image: url("/Atsiskaitymai/images/nft4.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    text-align: center;
+    background-color: rgb(232, 228, 228);
+    
+}
+.SignUp{
+    position: relative;
+    height: 500px;
+}
+#Green > img{
+    width: 200px;
+    margin-left: 210px;
+    margin-top: 50px;
+}
+.paragraf2{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    margin-top: -480px;
+    text-align: left;
+    margin-left: 20px;
+}
+.paragraf2 > h3{
+    color: rgb(223 93 184);
+    font-size: large;
+}
+.paragraf2 > h1{
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+footer{
+    margin-bottom: -20px;
+    margin-left: 20px;
+}
+.Social > img{
+    width: 200px;
+    height: 50px;
+}
+#socLinks{
+    display: flex;
+}
+
+#socLinks > a{
+    width: 1px;
+}
+.BottomInfo{
+    display: grid;
+    text-align: left;
+    grid-template-columns: 1th repeat(3);
+    grid-template-rows: 1th 1th;
+}
+
+
+#para1{
+    grid-area: 1 / 1 / 1 / 1;
+
+}
+#para2{
+    grid-area: 2 / 1 / 2 / 1;
+}
+#para3{
+    grid-area: 1 / 2 / 1 / 2;
+}
+#para4{
+    grid-area: 2 / 2 / 2 / 2;
+}
+h4{
+    text-align: center;
+    color: grey;
+    font-weight: 400;
+}
+#facebook{
+    display: none;
+}
+#hiddenBottom{
+    display: none;
+}
+
+@media (min-width: 1020px){
+    body{
+        width: 1200px;
+    }
+
+.bars{
+    display: none;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    gap: 500px;
+    position: relative;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 400px;
+}
+.menu > div > a{
+    
+    text-decoration: none;
+    font-weight: 600;
+}
+.menu > div{
+    display: flex;
+    gap: 20px;
+}
+.menu > div > a:nth-last-child(1){
+    color: rgb(223 93 184);
+}
+main{
+    width: 1200px;
+}
+
+#Purpledude > img{
+    width: 400px;
+    height: 400px;
+    margin-bottom: -50px;
+}
+.Hero{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.paragraf1{
+    width: 600px;
+    height: 300px;
+    margin-left: 50px;
+}
+#signup{
+    width: 80px;
+    height: 40px;
+    font-size: small;
+}
+#paragraf{
+    
+    width: 1100px;
+    margin-left: 50px;
+    border-radius: 10px;  
+}
+#paragraf > h1{
+text-align: left;
+margin-bottom: 0px;
+}
+#paragraf > p{
+    text-align: left;
+}
+.NFTs{
+  margin-right: 20px;
+}
+#facebook{
+    display: block;
+    color: grey;
+}
+#links{
+    display: flex;
+    width: fit-content;
+    gap: 50px;
+    align-items: center;
+   margin-left: 170px;
+   margin-top: 50px;
+}
+.SignUp{
+    width: fit-content;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+#Green > img{
+    width: 200px;
+    height: 400px;
+   
+    
+}
+.paragraf2{
+    width: 600px;
+    height: 300px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+footer{
+    width: 1200;
+    height: 300px;
+   
+}   
+.Social{
+    width: 300px;
+    margin-bottom: -170px;
+   
+    
+}
+.BottomInfo{
+    display: flex;
+    gap: 20px;
+    width: 400px;
+    margin-left: 600px;
+    text-align: right;
+    margin-bottom: 100px;
+    
+   
+}
+
+.Social{
+    margin-top: 100px;
+}
+h4{
+    text-align: left;
+    margin-bottom: 10px;
+}
+#hiddenBottom{
+    display: block;
+    text-align: right;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    color: grey;
+}
+
+#copyrights{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+}
